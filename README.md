@@ -1,4 +1,4 @@
-# # ALBER : 쓰레기통 지도  <img src="https://image.flaticon.com/icons/svg/458/458842.svg" width="24" height="24">
+# ALBER : 쓰레기통 지도  <img src="https://image.flaticon.com/icons/svg/458/458842.svg" width="24" height="24">
 
 > 프로젝트 소개 : 도심에서 쓰레기통을 찾기 쉽도록 안내한다.
 
