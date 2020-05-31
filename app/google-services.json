@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "596721363609",
+    "firebase_url": "https://alber-a2ade.firebaseio.com",
+    "project_id": "alber-a2ade",
+    "storage_bucket": "alber-a2ade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596721363609:android:257cf159e0c23883036608",
+        "android_client_info": {
+          "package_name": "org.themeselves.alberandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596721363609-tm78hkublo8kmq8qq9lcpri6kkp3p2na.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.themeselves.alberandroid",
+            "certificate_hash": "e50dab6195ac33fd649b0cbec51e1fec968b9ec3"
+          }
+        },
+        {
+          "client_id": "596721363609-4j7t30r7kucqm2gpuqca2sga0ln0bf7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtJMfRR8Dftlsxc3fVsrp7Ut21Rc-zu-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596721363609-4j7t30r7kucqm2gpuqca2sga0ln0bf7v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "596721363609-q9n595iqbim6bbf7omo1ig6npt1s9cr6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.themselves.alber.AlberAppIOS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

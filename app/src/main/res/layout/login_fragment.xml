@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="org.themeselves.alberandroid.ui.login.LoginType"/>
+        <variable
+            name="viewmodel"
+            type="org.themeselves.alberandroid.ui.login.LoginViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <include
+           android:id="@+id/toolbar"
+           layout="@layout/layout_toolbar"
+           app:title="@{@string/login}"
+           />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/space_large">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:hint="@string/login_hint_email" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/login_hint_password" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/login"
+                    android:textSize="@dimen/font_large"
+                    app:backgroundTint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/space_median"
+                    android:text="@string/login_div"
+                    android:textSize="@dimen/font_small" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:onClick="@{()->viewmodel.showLoginPage(LoginType.FACEBOOK)}"
+                    android:id="@+id/mb_login_facebook"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_size_normal"
+                    android:text="@string/login_button_facebook"
+                    android:textColor="@color/colorSubText" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/mb_login_kakao"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_size_normal"
+                    android:text="@string/login_button_kakao"
+                    android:textColor="@color/colorSubText" />
+            </LinearLayout>
+
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

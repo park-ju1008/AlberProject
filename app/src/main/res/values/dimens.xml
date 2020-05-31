@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_title">32sp</dimen>
+    <dimen name="font_x_large">20sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_s_large">16sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+
+    <dimen name="space_x_small">8dp</dimen>
+    <dimen name="space_small">12dp</dimen>
+    <dimen name="space_median">16dp</dimen>
+    <dimen name="space_s_large">18dp</dimen>
+    <dimen name="space_large">20dp</dimen>
+    <dimen name="space_x_large">24dp</dimen>
+
+    <dimen name="radius_large">24dp</dimen>
+    <dimen name="radius_normal">16dp</dimen>
+
+    <dimen name="button_size_normal">51dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+</resources>
